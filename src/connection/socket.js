@@ -1,7 +1,9 @@
 import io from 'socket.io-client'
 
-// const URL = 'http://localhost:8000'
-const URL = 'https://app.crmbroker.pl/chess/api/'
+//const URL = 'http://localhost:8000'
+// const URL = 'https://app.crmbroker.pl/chess/api/'
+// const URL = 'https://test.crmbroker.pl/chess/api/'
+const URL = 'https://ws.crmbroker.pl'
 
 const socket = io(URL)
 
